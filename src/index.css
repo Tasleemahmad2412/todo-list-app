@@ -1,0 +1,46 @@
+.heading-1 {
+  text-align: center;
+}
+
+body {
+  background-color: #282626;
+  color: white;
+}
+h1 {
+  margin-bottom: 3rem;
+}
+.task {
+  padding: 20px 30px;
+  background-color: #0f0e0e;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+.task-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  border-radius: 20px;
+  gap: 20px;
+}
+.delete-btn {
+  color: red;
+  background-color: #282626;
+  padding: 0px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 800;
+  transition: all 0.3s ease;
+}
+.delete-btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(255, 0, 0, 0.5);
+}
